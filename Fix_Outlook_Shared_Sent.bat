@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 set val=""
 for /f "tokens=2*" %%a in ('REG QUERY "HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Outlook\Preferences" /v "DelegateSentItemsStyle"') do set "val=%%~b"
